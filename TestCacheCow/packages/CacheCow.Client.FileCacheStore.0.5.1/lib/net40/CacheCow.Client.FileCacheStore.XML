@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CacheCow.Client.FileCacheStore</name>
+    </assembly>
+    <members>
+        <member name="M:CacheCow.Client.FileCacheStore.FileStore.#ctor(System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="dataRoot"></param>
+            <param name="bufferedFileAccess">It first loads the response into a memory buffer before processing. 
+            Improves file locking especially if response takes long time to come back from server.
+            </param>
+        </member>
+    </members>
+</doc>
